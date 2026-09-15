@@ -10,7 +10,7 @@
 |---|---|
 | **Team Name** | Kunj Patel |
 | **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
+| **Team Lead** | Kunj —  |
 | **Members** | Dharmay Thakkar , Siddhi Modi , Jyot Patel |
 
 ---
