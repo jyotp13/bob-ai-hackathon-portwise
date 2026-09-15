@@ -9,7 +9,7 @@
 | **Team Name** | Kunj Patel |
 | **Track** | AI |
 | **Team Lead** | Kunj — 26cs080@charusat.edu.in  |
-| **Members** | Dharmay Thakkar , Siddhi Modi , Jyot Patel |
+| **Members** | Dharmay Thakkar , Siddhi Modi , Jyot Patel , Kunj Patel |
 
 ---
 
