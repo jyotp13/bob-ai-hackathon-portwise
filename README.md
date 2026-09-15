@@ -9,7 +9,7 @@
 | Field | Value |
 |---|---|
 | **Team Name** | Kunj Patel |
-| **Track** | [AI / DevOps / Sustainability / Open] |
+| **Track** | AI |
 | **Team Lead** | Kunj — 26cs080@charusat.edu.in  |
 | **Members** | Dharmay Thakkar , Siddhi Modi , Jyot Patel |
 
@@ -17,78 +17,71 @@
 
 ## 🎯 Problem Statement
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
-
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
-
+The 2021 LA/Long Beach port backlog left 100+ ships waiting offshore for weeks, costing global supply chains over $10B. Port operators still allocate berths, cranes, and yard space across hundreds of vessels manually in spreadsheets, so congestion hotspots are identified reactively — only after vessels are already queuing — leaving no time to act on alternate routing or scheduling decisions.
 ---
 
 ## 💡 Solution
 
-> In 2–3 sentences: What did you build? How does it solve the problem above?
-
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
-
+PortFlow predicts berth congestion hotspots up to 72 hours in advance by analyzing incoming vessel schedules against real-time berth availability, then recommends an optimized berth and crane assignment plan that prioritizes critical and time-sensitive cargo. The system outputs a clear, shift-ready operations plan instead of a reactive spreadsheet update.
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
-
+- **Feature 1:** 72-hour congestion hotspot prediction based on vessel ETA vs. berth availability
+- **Feature 2:** Automated berth and crane assignment optimization, prioritized by cargo urgency
+- **Feature 3:** Shift-ready operations plan report generated automatically from prediction data
+- **Feature 4:** Flags at-risk vessels likely to face delays before they occur
 ---
 
 ## 🛠️ Tech Stack
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | Python |
+| **Frameworks** | None — command-line scripts only |
+| **IBM Technologies** | IBM Cloud |
+| **Databases** | None — vessel and berth data stored as CSV files |
+| **Other** | GitHub Actions (template validation) |
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-├── src/                  # All source code
-├── docs/                 # Written documentation
-│   ├── problem-statement.md
-│   ├── solution-overview.md
-│   ├── architecture.md
-│   └── setup-guide.md
-├── demo/                 # Demo artifacts
-│   ├── screenshots/      # App screenshots
-│   └── demo-video-link.txt  # Link to demo video
-├── presentation/         # Slide deck
-└── submission.yaml       # Structured submission metadata
+├── src/ # All source code
+│ ├── data/ # vessels.csv, berths.csv
+│ ├── predict_congestion.py
+│ ├── generate_ops_plan.py
+│ └── output/ # berth_plan.json, ops_plan.md
+├── docs/ # Written documentation
+│ ├── problem-statement.md
+│ ├── solution-overview.md
+│ ├── architecture.md
+│ └── setup-guide.md
+├── demo/ # Demo artifacts
+│ ├── screenshots/ # App screenshots
+│ └── demo-video-link.txt # Link to demo video
+├── presentation/ # Slide deck
+└── submission.yaml # Structured submission metadata
 ```
 
 ---
 
 ## ⚡ How to Run
 
-> **Copy these exact steps from your [`docs/setup-guide.md`](docs/setup-guide.md)**
-
 ```bash
 # 1. Clone the repo
-git clone https://github.com/[your-repo].git
-cd [your-repo]
+git clone https://github.com/[friend-username]/bob-ai-hackathon-[team-name].git
+cd bob-ai-hackathon-[team-name]
 
 # 2. Install dependencies
-[your install command here]
+pip install -r requirements.txt
 
-# 3. Configure environment
-cp .env.example .env
-# Edit .env with your values
+# 3. Run the congestion prediction
+python src/predict_congestion.py
 
-# 4. Run the project
-[your run command here]
+# 4. Generate the operations plan report
+python src/generate_ops_plan.py
 ```
 
 ---
@@ -108,14 +101,14 @@ cp .env.example .env
 
 > Be honest — judges appreciate transparency over overclaiming.
 
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
+- [Limitation 1: e.g., "Uses simulated vessel and berth data, not a live port operations feed"]
+- [Limitation 2: e.g., "Fixed 72-hour prediction window; does not account for real-time weather or customs delays"]
+- [Limitation 3: e.g., "No persistent database — plans are generated fresh per run, not stored historically
+"]
 
 ---
 
 ## 🏅 What We're Most Proud Of
 
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
-
+We're proud that PortFlow tackles a specific, high-cost operational failure — reactive congestion detection — with a targeted prediction-plus-optimization approach rather than a generic dashboard. We deliberately scoped the project around one clear workflow (vessel data in, actionable berth plan out) so that what we built is fully functional and understandable end-to-end, rather than a broader set of half-finished features.
 ---
