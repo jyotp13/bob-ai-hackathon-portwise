@@ -1,7 +1,5 @@
 # 🚀 Portwise
 
-> ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
-
 ---
 
 ## 👥 Team
