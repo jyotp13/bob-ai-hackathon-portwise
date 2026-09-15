@@ -89,7 +89,7 @@ python src/generate_ops_plan.py
 | Artifact | Link |
 |---|---|
 |  Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
-|  Live Demo | [See demo/live-demo-url.txt](https://jyotp13.github.io/bob-ai-hackathon-portwise/t) |
+|  Live Demo |[https://jyotp13.github.io/bob-ai-hackathon-portwise/t](https://jyotp13.github.io/bob-ai-hackathon-portwise/t) |
 |  Screenshots | [See demo/screenshots/](demo/screenshots/) |
 |  Presentation | [See presentation/slides.pdf](presentation/) |
 
