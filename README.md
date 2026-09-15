@@ -10,7 +10,7 @@
 |---|---|
 | **Team Name** | Kunj Patel |
 | **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | Kunj —  |
+| **Team Lead** | Kunj — 26cs080@charusat.edu.in  |
 | **Members** | Dharmay Thakkar , Siddhi Modi , Jyot Patel |
 
 ---
