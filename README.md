@@ -1,8 +1,8 @@
-# 🚀 Portwise
+#  Portwise
 
 ---
 
-## 👥 Team
+##  Team
 
 | Field | Value |
 |---|---|
@@ -13,17 +13,17 @@
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 The 2021 LA/Long Beach port backlog left 100+ ships waiting offshore for weeks, costing global supply chains over $10B. Port operators still allocate berths, cranes, and yard space across hundreds of vessels manually in spreadsheets, so congestion hotspots are identified reactively — only after vessels are already queuing — leaving no time to act on alternate routing or scheduling decisions.
 ---
 
-## 💡 Solution
+##  Solution
 
 PortFlow predicts berth congestion hotspots up to 72 hours in advance by analyzing incoming vessel schedules against real-time berth availability, then recommends an optimized berth and crane assignment plan that prioritizes critical and time-sensitive cargo. The system outputs a clear, shift-ready operations plan instead of a reactive spreadsheet update.
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **Feature 1:** 72-hour congestion hotspot prediction based on vessel ETA vs. berth availability
 - **Feature 2:** Automated berth and crane assignment optimization, prioritized by cargo urgency
@@ -31,7 +31,7 @@ PortFlow predicts berth congestion hotspots up to 72 hours in advance by analyzi
 - **Feature 4:** Flags at-risk vessels likely to face delays before they occur
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Technologies |
 |---|---|
@@ -43,7 +43,7 @@ PortFlow predicts berth congestion hotspots up to 72 hours in advance by analyzi
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ├── src/ # All source code
@@ -65,7 +65,7 @@ PortFlow predicts berth congestion hotspots up to 72 hours in advance by analyzi
 
 ---
 
-## ⚡ How to Run
+##  How to Run
 
 ```bash
 # 1. Clone the repo
@@ -84,18 +84,18 @@ python src/generate_ops_plan.py
 
 ---
 
-## 🖥️ Demo
+##  Demo
 
 | Artifact | Link |
 |---|---|
-| 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
-| 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
-| 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
-| 📊 Presentation | [See presentation/slides.pdf](presentation/) |
+|  Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
+|  Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
+|  Screenshots | [See demo/screenshots/](demo/screenshots/) |
+|  Presentation | [See presentation/slides.pdf](presentation/) |
 
 ---
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 > Be honest — judges appreciate transparency over overclaiming.
 
